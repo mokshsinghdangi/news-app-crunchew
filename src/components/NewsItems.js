@@ -2,20 +2,18 @@ import React, { Component } from "react";
 
 export default class NewsItems extends Component {
   render() {
+    let { title, img, description, tag } = this.props;
     return (
       <>
         <div className="news-container">
           <div className="card">
             <div className="card-header">
-              <img
-                src="https://images6.alphacoders.com/312/thumb-1920-312773.jpg"
-                alt="city"
-              />
+              <img src={img} alt="city" />
             </div>
             <div className="card-body">
-              <span className="tag tag-pink">Design</span>
-              <h4>10 Rules of Dashboard Design</h4>
-              <p>Dashboard Design Guidelines</p>
+              <span className="tag tag-pink">{tag}</span>
+              <h4>{title}</h4>
+              <p>{description}</p>
             </div>
           </div>
         </div>
