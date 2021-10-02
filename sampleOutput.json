@@ -1,36 +1,206 @@
 {
   "status": "ok",
-  "totalResults": 3,
+  "totalResults": 38,
   "articles": [
     {
-      "source": { "id": null, "name": "Cricbuzz" },
-      "author": null,
-      "title": "Australia Women vs India Women, Only Test, India Women tour of Australia, 2021 - Cricbuzz",
-      "description": "Follow Australia Women vs India Women, Only Test, Sep 30, India Women tour of Australia, 2021 with live Cricket score, ball by ball commentary updates on Cricbuzz",
-      "url": "https://www.cricbuzz.com/cricket-commentary/36427/ausw-vs-indw-only-test-india-women-tour-of-australia-2021",
-      "urlToImage": null,
-      "publishedAt": "2021-10-02T07:26:30Z",
-      "content": "17.6 Vastrakar to Healy, no run, shape away from a fuller length, but the line's outside off, Healy lets it go again"
+      "source": { "id": "the-times-of-india", "name": "The Times of India" },
+      "author": "TIMESOFINDIA.COM",
+      "title": "The simple trick to prevent glasses from fogging when you wear a mask - Times of India",
+      "description": "Though getting vaccinated is the best way to protect oneself from getting infected by the novel coronavirus.",
+      "url": "https://timesofindia.indiatimes.com/life-style/health-fitness/health-news/the-simple-trick-to-prevent-glasses-from-fogging-when-you-wear-a-mask/articleshow/86681691.cms",
+      "urlToImage": "https://static.toiimg.com/thumb/msid-86681691,width-1070,height-580,overlay-toi_sw,pt-32,y_pad-40,resizemode-75,imgsize-34654/86681691.jpg",
+      "publishedAt": "2021-10-02T10:30:00Z",
+      "content": null
     },
     {
       "source": { "id": "the-times-of-india", "name": "The Times of India" },
-      "author": "Ashish Sen",
-      "title": "IPL 2021, RR vs CSK: Testing time for struggling Rajasthan Royals against Chennai Super Kings - Times of India",
-      "description": "Cricket News: Success influences motivation and drive. And when it comes to Chennai Super Kings, success also provides the spark and the appetite to achieve more.",
-      "url": "https://timesofindia.indiatimes.com/sports/cricket/ipl/top-stories/ipl-2021-rr-vs-csk-testing-time-for-struggling-rajasthan-royals-against-chennai-super-kings/articleshow/86699619.cms",
-      "urlToImage": "https://static.toiimg.com/thumb/msid-86699604,width-1070,height-580,imgsize-70502,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
-      "publishedAt": "2021-10-02T04:01:00Z",
-      "content": "IPL 2021, RR vs CSK: Testing time for struggling Rajasthan Royals against Chennai Super Kings"
+      "author": "TIMESOFINDIA.COM",
+      "title": "Samantha Akkineni confirms separation with Naga Chaitanya, says they have decided to 'part ways as husban - Times of India",
+      "description": "Actress Samantha Akkineni and actor Naga Chaitanya have confirmed their separation through a social media post. The",
+      "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/samantha-akkineni-confirms-separation-with-naga-chaitanya-says-they-have-decided-to-part-ways-as-husband-and-wife-to-pursue-own-paths/articleshow/86704849.cms",
+      "urlToImage": "https://static.toiimg.com/thumb/msid-86704849,width-1070,height-580,overlay-toi_sw,pt-32,y_pad-40,resizemode-75,imgsize-39130/86704849.jpg",
+      "publishedAt": "2021-10-02T10:13:00Z",
+      "content": null
     },
     {
-      "source": { "id": null, "name": "India.com" },
-      "author": "India.com Sports Desk",
-      "title": "MI vs DC Dream11 Team Prediction, Fantasy Hints VIVO IPL 2021 Match 46: Captain, Vice-Captain – Mumbai Indian - India.com",
-      "description": "Mumbai Indians vs Delhi Capitals Dream11 Team - Check My Dream11 Team, Best players list of MI vs DC, VIVO IPL 2021, Mumbai Indians Dream 11 Team Player List, Delhi Capitals Dream11 Team Player List, Dream11 Guru Tips, Fantasy Cricket Tips Mumbai Indians vs D…",
-      "url": "https://www.india.com/sports/mi-vs-dc-dream11-team-prediction-fantasy-hints-vivo-ipl-2021-match-46-captain-vice-captain-mumbai-indians-vs-delhi-capitals-playing-11s-for-todays-t20-match-at-sharjah-cricket-5003737/",
-      "urlToImage": "https://static.india.com/wp-content/uploads/2021/10/pjimage-2021-10-01T165426.873.jpg",
-      "publishedAt": "2021-10-01T15:00:46Z",
-      "content": "Home &gt; Sports\r\nMumbai Indians vs Delhi Capitals Dream11 Team - Check My Dream11 Team, Best players list of MI vs DC, VIVO IPL 2021, Mumbai Indians Dream 11 Team Player List, Delhi Capitals Dream11… [+3647 chars]"
+      "source": { "id": null, "name": "India Today" },
+      "author": "IndiaToday.in",
+      "title": "MI vs DC Live Score, Today IPL 2021 News: Prithvi Shaw returns as Delhi Capitals opt to bowl - India Today",
+      "description": "MI vs DC Live Score, Today IPL 2021 News: Rishabh Pant-led Delhi Capitals win the toss and opt to bowl first against Rohit Sharma's Mumbai Indians in Match 46 of IPL 2021 in Sharjah. Both Delhi and Mumbai made one change to their playing XIs. While Prithvi Sh…",
+      "url": "https://www.indiatoday.in/sports/ipl-2021/story/mi-vs-dc-live-score-today-ipl-2021-news-match-46-updates-mumbai-indians-delhi-capitals-sharjah-1859957-2021-10-02",
+      "urlToImage": "https://akm-img-a-in.tosshub.com/indiatoday/images/breaking_news/202110/RJV68917-647x363.jpeg?bdrG3dPoQ9O3MBBp3SSR93QLn87QDTNO",
+      "publishedAt": "2021-10-02T10:05:36Z",
+      "content": null
+    },
+    {
+      "source": { "id": "google-news", "name": "Google News" },
+      "author": null,
+      "title": "AUS-W vs IND-W Pink Ball Test Day 3 Live Score AUS:85/3: Runs dry up for Australia after Vastrakar foxes Lanning - Sportstar",
+      "description": null,
+      "url": "https://news.google.com/__i/rss/rd/articles/CBMitAFodHRwczovL3Nwb3J0c3Rhci50aGVoaW5kdS5jb20vY3JpY2tldC9pbmRpYS13b21lbi12cy1hdXN0cmFsaWEtd29tZW4tcGluay1iYWxsLXRlc3QtZGF5LTMtbGl2ZS1zY29yZS1hdXMtdy12LWluZC13LWNvbW1lbnRhcnktd2VhdGhlci1wbGF5aW5nLXhpLWluanVyeS11cGRhdGVzL2FydGljbGUzNjc4NzU3OC5lY2XSAbkBaHR0cHM6Ly9zcG9ydHN0YXIudGhlaGluZHUuY29tL2NyaWNrZXQvaW5kaWEtd29tZW4tdnMtYXVzdHJhbGlhLXdvbWVuLXBpbmstYmFsbC10ZXN0LWRheS0zLWxpdmUtc2NvcmUtYXVzLXctdi1pbmQtdy1jb21tZW50YXJ5LXdlYXRoZXItcGxheWluZy14aS1pbmp1cnktdXBkYXRlcy9hcnRpY2xlMzY3ODc1NzguZWNlL2FtcC8?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2021-10-02T09:48:26Z",
+      "content": null
+    },
+    {
+      "source": { "id": null, "name": "NDTV News" },
+      "author": null,
+      "title": "\"Post Or No Post, Will Stand By Rahul And Priyanka Gandhi\": Navjot Sidhu - NDTV",
+      "description": "Navjot Sidhu - whose apparent flip-flop as Punjab Congress chief triggered a manic week for the party just months ahead of a crucial Assembly election - today declared \"post or no post... will stand by Rahul Gandhi and Priyanka Gandhi Vadra\".",
+      "url": "https://www.ndtv.com/india-news/post-or-no-post-will-stand-by-rahul-and-priyanka-gandhi-navjot-sidhu-2561343",
+      "urlToImage": "https://drop.ndtv.com/albums/uploadedpics/small1/rahul_gandhi_sidhu_650x400-2_636200802501253036.jpg",
+      "publishedAt": "2021-10-02T09:44:11Z",
+      "content": "New Delhi: Navjot Sidhu - whose flip-flop this week over the Punjab Congress chief's post has only added to his party's headaches as it preps for next year's key Assembly election - declared Saturday… [+1705 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Hindustan Times" },
+      "author": "hindustantimes.com",
+      "title": "Indian Army deploys K9-Vajra howitzer regiment along LAC: Know all about the guns - Hindustan Times",
+      "description": "The K9-Vajra self-propelled howitzer weighs 50 tonnes and can strike enemy targets 50 kilometres away. These howitzers can also turn around at zero radius, basically at the same place where they are standing. Their induction will give a huge fillip to the fir…",
+      "url": "https://www.hindustantimes.com/india-news/indian-army-deploys-k9-vajra-howitzer-regiment-along-lac-know-all-about-the-gun-101633166922888.html",
+      "urlToImage": "https://images.hindustantimes.com/img/2021/10/02/1600x900/k9-vajra-howitzer_1633167110011_1633167133594.jpg",
+      "publishedAt": "2021-10-02T09:35:51Z",
+      "content": "The Indian Army has deployed the first K9-Vajra self-propelled howitzer regiment in the forward areas in Ladakh along the Line of Actual Control (LAC) with China, news agency ANI reported.\r\nIn a vide… [+1376 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Moneycontrol" },
+      "author": null,
+      "title": "Zee moves Bombay High Court against Invesco, wants EGM demand declared illegal - Moneycontrol.com",
+      "description": "The move comes a day after the company's board rejected Invesco and OFI Global China Fund LLC 's demand for EGM, saying it 'suffered from multiple legal infirmities'",
+      "url": "https://www.moneycontrol.com/news/business/companies/zee-moves-bombay-high-court-against-invesco-wants-egm-demand-declared-illegal-7535121.html",
+      "urlToImage": "https://images.moneycontrol.com/static-mcnews/2021/09/Zee-Entertainment-770x433.jpg",
+      "publishedAt": "2021-10-02T09:29:03Z",
+      "content": "Zee Entertainment Enterprise Limited on October 2 moved the Bombay High Court against its biggest shareholders Invesco and OFI Global China Fund, saying their demand to call an extraordinary general … [+3171 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Hindustan Times" },
+      "author": "Reuters",
+      "title": "China angers Taiwan after it commits largest ever incursion into island - Hindustan Times",
+      "description": "Taiwanese fighters scrambled against 38 Chinese aircraft in two waves on Friday, the Taiwan Defence Ministry said. | World News",
+      "url": "https://www.hindustantimes.com/world-news/china-angers-taiwan-after-it-commits-largest-ever-incursion-into-island-101633166448199.html",
+      "urlToImage": "https://images.hindustantimes.com/img/2021/10/02/1600x900/CHINA-TAIWAN-1_1633166515575_1633166525278.JPG",
+      "publishedAt": "2021-10-02T09:23:18Z",
+      "content": "Taiwan sharply criticised China on Saturday after Beijing marked the founding of the People's Republic of China with the largest ever incursion by the Chinese air force into the island's air defence … [+1975 chars]"
+    },
+    {
+      "source": { "id": null, "name": "NDTV News" },
+      "author": null,
+      "title": "What Happened When Ranveer Singh Met Salman Khan On The Sets Of Bigg Boss 15 - NDTV",
+      "description": "Salman  asked Ranveer to demonstrate how he will be hosting the show The Big Picture",
+      "url": "https://www.ndtv.com/entertainment/what-happened-when-ranveer-singh-met-salman-khan-on-the-sets-of-bigg-boss-15-2561332",
+      "urlToImage": "https://c.ndtvimg.com/2021-10/juneuh6o_salman-khan_625x300_02_October_21.jpg",
+      "publishedAt": "2021-10-02T09:06:40Z",
+      "content": "Ranveer and Salman on the sets of Bigg Boss 15. (courtesy colorstv)\r\nHighlights\r\n<ul><li>Bigg Boss 15 will premiere tonight\r\n</li><li> Ranveer Singh visited the sets of the show \r\n</li><li> He will s… [+1755 chars]"
+    },
+    {
+      "source": { "id": null, "name": "NDTV News" },
+      "author": null,
+      "title": "World's Largest Khadi National Flag, Weighing 1,000 Kg, Unveiled In Leh - NDTV",
+      "description": "The world's largest Khadi national flag was installed in Leh, Ladakh, today on the occasion of Mahatma Gandhi's 152nd birth anniversary. It was inaugurated by Ladakh Lieutenant Governor RK Mathur this morning.",
+      "url": "https://www.ndtv.com/india-news/worlds-largest-khadi-national-flag-weighing-1-000-kg-installed-in-leh-2561247",
+      "urlToImage": "https://c.ndtvimg.com/2021-10/6e56a9dg_largest-khadi-national-flag_625x300_02_October_21.jpg",
+      "publishedAt": "2021-10-02T09:01:10Z",
+      "content": "The national flag was inaugurated by Ladakh Lieutenant Governor RK Mathur.\r\nNew Delhi: The world's largest Khadi national flag was installed in Leh, Ladakh, today on the occasion of Mahatma Gandhi's … [+2908 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Hindustan Times" },
+      "author": "hindustantimes.com",
+      "title": "What is happening in Chhattisgarh? CM Bhupesh Baghel says not becoming Punjab - Hindustan Times",
+      "description": "The MLAs are independent individuals and they are going to Delhi on their own wish, chief minister Bhupesh Baghel said refuting speculation that these MLAs are gathering in the Capital as a show of strength for his camp.  | Latest News India",
+      "url": "https://www.hindustantimes.com/india-news/what-is-happening-in-chhattisgarh-cm-bhupesh-baghel-says-not-becoming-punjab-101633164575930.html",
+      "urlToImage": "https://images.hindustantimes.com/img/2021/10/02/1600x900/500e1aca-097a-11ec-b1ee-0b1c9108b6b1_1633164658917_1633164673918.jpg",
+      "publishedAt": "2021-10-02T08:55:39Z",
+      "content": "With more Congress MLAs from Chhattisgarh joining their colleagues in New Delhi amid speculation of a leadership change in the state, chief minister Bhupesh Baghel on Saturday reiterated that there i… [+1877 chars]"
+    },
+    {
+      "source": { "id": null, "name": "NDTV News" },
+      "author": null,
+      "title": "Philippine President Rodrigo Duterte Says He Will Retire From Politics - NDTV",
+      "description": "Philippine President Rodrigo Duterte said Saturday he will not run for vice president in 2022 and will retire from politics, potentially paving the way for his daughter to contest the country's highest office.",
+      "url": "https://www.ndtv.com/world-news/philippine-president-rodrigo-duterte-says-he-will-retire-from-politics-2561288",
+      "urlToImage": "https://c.ndtvimg.com/2020-04/8nboh3hs_philippine-president-rodrigo-duterte-reuters_625x300_02_April_20.jpg",
+      "publishedAt": "2021-10-02T08:30:00Z",
+      "content": "Philippine President Rodrigo Duterte said he will not run for vice president in 2022. (File)\r\nManila: Philippine President Rodrigo Duterte said Saturday he will not run for vice president in 2022 and… [+1622 chars]"
+    },
+    {
+      "source": { "id": null, "name": "The Indian Express" },
+      "author": "Lifestyle Desk",
+      "title": "Happy Gandhi Jayanti 2021: Wishes, Images, Quotes, Whatsapp Messages, Status and Photos - The Indian Express",
+      "description": "Gandhi Jayanti 2021 Wishes Images, Quotes, Messages, and Status: On this special day, let us all strive to keep his spirit alive",
+      "url": "https://indianexpress.com/article/lifestyle/life-style/happy-gandhi-jayanti-2021-wishes-images-quotes-whatsapp-messages-status-and-photos-7546213/",
+      "urlToImage": "https://images.indianexpress.com/2021/10/gandhi-.jpg",
+      "publishedAt": "2021-10-02T08:13:54Z",
+      "content": "Gandhi Jayanti 2020 Wishes Images, Quotes, Status, Messages, Photos: Born as Mohandas Karamchand Gandhi on October 2, Mahatma Gandhi went on to become one of the most important figures in Indian poli… [+1464 chars]"
+    },
+    {
+      "source": { "id": null, "name": "CNBCTV18" },
+      "author": null,
+      "title": "Petrol, diesel soar to new record highs as rates hiked again - CNBCTV18",
+      "description": "Petrol and diesel prices soared to new record highs across the country on Saturday after rates were hiked again by 25 paise and 30 paise a litre, respectively.",
+      "url": "https://www.cnbctv18.com/economy/petrol-diesel-soar-to-new-record-highs-as-rates-hiked-again-10972462.htm",
+      "urlToImage": "https://images.cnbctv18.com/wp-content/uploads/2020/09/Petrol-price.jpg",
+      "publishedAt": "2021-10-02T08:10:17Z",
+      "content": "MiniPetrol and diesel prices soared to new record highs across the country on Saturday after rates were hiked again by 25 paise and 30 paise a litre, respectively."
+    },
+    {
+      "source": { "id": "the-times-of-india", "name": "The Times of India" },
+      "author": "PTI",
+      "title": "'Intellectual dishonesty', 'political deceit': PM slams opposition over farm reforms criticism - Economic Times",
+      "description": "Modi said politics in India had seen only one model, which governments were run to build the next government too, while his fundamental thinking is different as he believes in running the government to build the nation.",
+      "url": "https://economictimes.indiatimes.com/news/politics-and-nation/intellectual-dishonesty-political-deceit-pm-slams-opposition-over-farm-reforms-criticism/articleshow/86703134.cms",
+      "urlToImage": "https://img.etimg.com/thumb/msid-86703140,width-1070,height-580,imgsize-31174,overlay-economictimes/photo.jpg",
+      "publishedAt": "2021-10-02T08:02:00Z",
+      "content": "Accusing the opposition of \"intellectual dishonesty\" and \"political deceit\" over its criticism of his government's three farm laws, Prime Minister Narendra Modi says tough and big decisions need to b… [+5106 chars]"
+    },
+    {
+      "source": { "id": null, "name": "NDTV News" },
+      "author": "Associated Press",
+      "title": "Amazon Settles With 2 Employees It Fired Last Year - Gadgets 360",
+      "description": "Amazon has settled with two employees it fired last year who publically criticised the company over working conditions of warehouse workers during COVID-19.",
+      "url": "https://gadgets.ndtv.com/internet/news/amazon-employees-fired-warehouse-workers-working-condition-covid-19-2561268",
+      "urlToImage": "https://i.gadgets360cdn.com/large/amazon_reuters_full_1561527266452.JPG",
+      "publishedAt": "2021-10-02T07:54:09Z",
+      "content": "Amazon is settling with two former tech workers who accused the retail giant of illegally firing them last year for speaking out against the company. The former employees, Emily Cunningham and Maren … [+1621 chars]"
+    },
+    {
+      "source": { "id": null, "name": "The Indian Express" },
+      "author": "Express News Service",
+      "title": "Clashes break out as farmers attempt to reach residences of Haryana MPs, MLAs - The Indian Express",
+      "description": "Paramilitary forces have been deployed outside Chief Minister Manohar Lal Khattar’s residence in Karnal. Roads leading to his house have also been barricaded by Haryana Police.",
+      "url": "https://indianexpress.com/article/cities/chandigarh/clashes-farmers-residences-haryana-mla-mp-manohar-lal-khattar-7547693/",
+      "urlToImage": "https://images.indianexpress.com/2021/10/haryana-police-cm-residence.png",
+      "publishedAt": "2021-10-02T07:51:55Z",
+      "content": "After farmers started gathering outside the residences of MPs and MLAs of Haryana Saturday to protest the Centres decision to delay paddy procurement, Chief minister Manohar Lal Khattar and Agricultu… [+2505 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Bollyinside.com" },
+      "author": null,
+      "title": "School of Mines receives $ 300,000 from NASA in pursuit of possible International Space Station experiments - Space Bollyinside - BollyInside",
+      "description": "Work that Walker says has led to an award form the national science foundation, “that was based on Mingyang’s work to look at suspensions of magnetically",
+      "url": "https://www.bollyinside.com/news/school-of-mines-receives-300000-from-nasa-in-pursuit-of-possible-international-space-station-experiments",
+      "urlToImage": "https://www.bollyinside.com/wp-content/uploads/2021/09/PS5-games-could-be-coming-to-the-PS-Now-streaming.png",
+      "publishedAt": "2021-10-02T07:48:49Z",
+      "content": "Work that Walker says has led to an award form the national science foundation, “that was based on Mingyang’s work to look at suspensions of magnetically inducible particles.” At a very basic level, … [+2111 chars]"
+    },
+    {
+      "source": { "id": null, "name": "NDTV News" },
+      "author": null,
+      "title": "3 Crore Water Connections Took 70 Years, 5 Crore In Last 2 Years: PM Modi - NDTV",
+      "description": "Since the launch of the Jal Jeevan Mission in 2019, five crore households have got water connection and now tap water is reaching every household in about 1.25 lakh villages, Prime Minister Narendra Modi said today.",
+      "url": "https://www.ndtv.com/india-news/jal-jeevan-mission-pm-narendra-modi-says-3-crore-water-connections-took-70-years-5-crore-in-last-2-years-2561267",
+      "urlToImage": "https://c.ndtvimg.com/2021-10/aihh3pn4_narendra-modi_625x300_02_October_21.jpg",
+      "publishedAt": "2021-10-02T07:38:01Z",
+      "content": "\"More work done in just two years than what was done in the last seven decades,\" PM Modi said\r\nNew Delhi: Since the launch of the Jal Jeevan Mission in 2019, five crore households have got water conn… [+3290 chars]"
+    },
+    {
+      "source": { "id": null, "name": "The Indian Express" },
+      "author": "Lifestyle Desk",
+      "title": "Why seasonal flu vaccination is necessary; where could you get it from - The Indian Express",
+      "description": "Notably, new flu vaccines are developed twice a year as flu viruses undergo changes rapidly",
+      "url": "https://indianexpress.com/article/lifestyle/health/seasonal-flu-vaccination-necessary-list-hospitals-clinic-vaccine-centers-7547428/",
+      "urlToImage": "https://images.indianexpress.com/2021/10/flu-vaccine_1200_pixabay.jpg",
+      "publishedAt": "2021-10-02T07:33:59Z",
+      "content": "One of the common and recurring seasonal diseases is the seasonal flu which is popularly known as Influenza or H1N1. The respiratory viral infection can lead to complications such as pneumonia and ho… [+3949 chars]"
     }
   ]
 }

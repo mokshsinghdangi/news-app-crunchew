@@ -12,8 +12,9 @@ export default class NewsItems extends Component {
             </div>
             <div className="card-body">
               <span className="tag tag-pink">{tag}</span>
-              <h4>{title}</h4>
+              <h4 className="news-card-title">{title}</h4>
               <p>{description}</p>
+              <button className="read-more">Read More</button>
             </div>
           </div>
         </div>
