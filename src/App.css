@@ -62,7 +62,7 @@
 
 .news-items {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-template-rows: auto auto auto;
   margin-top: 1em;
 }
@@ -141,6 +141,6 @@
 .read-more:hover {
   color: #ff5c58;
   background: #fff;
-  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
-    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 3px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 3px 1px inset;
 }
