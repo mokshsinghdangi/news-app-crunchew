@@ -1,5 +1,4 @@
 import "./App.css";
-
 import React, { Component } from "react";
 import NavBar from "./components/NavBar";
 import News from "./components/News";
@@ -11,8 +10,8 @@ export default class App extends Component {
         <header>
           <NavBar />
         </header>
-        <section className="news">
-          <News />
+        <section>
+          <News pageSize={4} />
         </section>
       </>
     );

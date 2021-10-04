@@ -173,3 +173,13 @@
   color: #ff5c58;
   background: #fff;
 }
+
+/* Spinner while loading */
+
+#spinner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2em 0;
+}
