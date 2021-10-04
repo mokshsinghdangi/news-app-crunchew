@@ -6,7 +6,6 @@ import NextIcon from "@material-ui/icons/ArrowForward";
 export default class News extends Component {
   constructor() {
     super();
-    console.log("i am constructor");
 
     this.state = {
       articles: [],
@@ -24,12 +23,38 @@ export default class News extends Component {
     this.setState({ articles: parsedData.articles });
   }
 
-  handlePrev = () => {
+  handlePrev = async () => {
     console.log("previous");
+
+    let url = `https://newsapi.org/v2/top-headlines?country=in&apiKey=07fa1c09aa6d45928d240eb9a7ea0104&page=${
+      this.state.page - 1
+    }`;
+
+    let data = await fetch(url);
+
+    let parsedData = await data.json();
+
+    this.setState({
+      page: this.state.page - 1,
+      articles: parsedData.articles,
+    });
   };
 
-  handleNext = () => {
+  handleNext = async () => {
     console.log("Next");
+
+    let url = `https://newsapi.org/v2/top-headlines?country=in&apiKey=07fa1c09aa6d45928d240eb9a7ea0104&page=${
+      this.state.page + 1
+    }`;
+
+    let data = await fetch(url);
+
+    let parsedData = await data.json();
+
+    this.setState({
+      page: this.state.page + 1,
+      articles: parsedData.articles,
+    });
   };
 
   render() {
@@ -51,10 +76,15 @@ export default class News extends Component {
           })}
         </div>
         <div className="pg-btn">
-          <button className="page-btn" type="button" onclick={this.handlePrev}>
+          <button
+            className="page-btn"
+            disabled={this.state.page <= 1}
+            type="button"
+            onClick={this.handlePrev}
+          >
             <PreviousIcon /> Previous
           </button>
-          <button className="page-btn" type="button" onclick={this.handleNext}>
+          <button className="page-btn" type="button" onClick={this.handleNext}>
             Next <NextIcon />
           </button>
         </div>
