@@ -123,7 +123,7 @@
   font-family: "Baloo 2", cursive;
 }
 
-.read-more {
+.btn {
   background: #ff5c58;
   color: white;
   border: none;
@@ -134,13 +134,42 @@
   font-family: "Baloo 2", cursive;
   font-size: 0.9em;
   cursor: pointer;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   transition: 0.3s;
 }
 
-.read-more:hover {
+.btn:hover {
   color: #ff5c58;
   background: #fff;
   box-shadow: rgb(204, 219, 232) 3px 3px 6px 3px inset,
     rgba(255, 255, 255, 0.5) -3px -3px 3px 1px inset;
+}
+
+/* Bottom buttons */
+
+.pg-btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-btn {
+  background: #ff0400;
+  color: white;
+  border: none;
+  padding: 0.5em 1.2em;
+  margin: 1em 0;
+  border-radius: 5px;
+  font-weight: bold;
+  font-family: "Baloo 2", cursive;
+  font-size: 0.9em;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 2px solid #ff5c58;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.page-btn:hover {
+  color: #ff5c58;
+  background: #fff;
 }

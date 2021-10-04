@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import NewsItems from "./NewsItems";
+import PreviousIcon from "@material-ui/icons/ArrowBack";
+import NextIcon from "@material-ui/icons/ArrowForward";
 
 export default class News extends Component {
   constructor() {
@@ -22,6 +24,14 @@ export default class News extends Component {
     this.setState({ articles: parsedData.articles });
   }
 
+  handlePrev = () => {
+    console.log("previous");
+  };
+
+  handleNext = () => {
+    console.log("Next");
+  };
+
   render() {
     return (
       <div className="news">
@@ -39,6 +49,14 @@ export default class News extends Component {
               />
             );
           })}
+        </div>
+        <div className="pg-btn">
+          <button className="page-btn" type="button" onclick={this.handlePrev}>
+            <PreviousIcon /> Previous
+          </button>
+          <button className="page-btn" type="button" onclick={this.handleNext}>
+            Next <NextIcon />
+          </button>
         </div>
       </div>
     );
