@@ -15,7 +15,7 @@ export default class News extends Component {
 
   async componentDidMount() {
     let url =
-      "https://newsapi.org/v2/top-headlines?country=in&apiKey=07fa1c09aa6d45928d240eb9a7ea0104";
+      "https://newsapi.org/v2/top-headlines?country=in&apiKey=07fa1c09aa6d45928d240eb9a7ea0104&page=1&pageSize=20";
 
     let data = await fetch(url);
 
@@ -28,7 +28,7 @@ export default class News extends Component {
 
     let url = `https://newsapi.org/v2/top-headlines?country=in&apiKey=07fa1c09aa6d45928d240eb9a7ea0104&page=${
       this.state.page - 1
-    }`;
+    }&pageSize=20`;
 
     let data = await fetch(url);
 
@@ -45,7 +45,7 @@ export default class News extends Component {
 
     let url = `https://newsapi.org/v2/top-headlines?country=in&apiKey=07fa1c09aa6d45928d240eb9a7ea0104&page=${
       this.state.page + 1
-    }`;
+    }&pageSize=20`;
 
     let data = await fetch(url);
 
