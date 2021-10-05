@@ -18,10 +18,16 @@ export default class News extends Component {
   async componentDidMount() {
     let url = `https://newsapi.org/v2/top-headlines?country=in&apiKey=07fa1c09aa6d45928d240eb9a7ea0104&page=1&pageSize=${this.props.pageSize}`;
 
+    this.setState({ loading: true });
+
     let data = await fetch(url);
 
     let parsedData = await data.json();
-    this.setState({ articles: parsedData.articles });
+    this.setState({
+      articles: parsedData.articles,
+      loading: false,
+      totalResults: parsedData.totalResults,
+    });
   }
 
   handlePrev = async () => {
@@ -76,18 +82,19 @@ export default class News extends Component {
         <div className="news">
           <h1 className="head">SpiceHunt - Top headings</h1>
           <div className="news-items">
-            {this.state.articles.map((element) => {
-              return (
-                <NewsItems
-                  key={element.url}
-                  title={element.title}
-                  description={element.description}
-                  img={element.urlToImage}
-                  tag={element.author}
-                  newsUrl={element.url}
-                />
-              );
-            })}
+            {!this.state.loading &&
+              this.state.articles.map((element) => {
+                return (
+                  <NewsItems
+                    key={element.url}
+                    title={element.title}
+                    description={element.description}
+                    img={element.urlToImage}
+                    tag={element.author}
+                    newsUrl={element.url}
+                  />
+                );
+              })}
           </div>
           <div className="pg-btn">
             <button
