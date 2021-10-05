@@ -11,7 +11,7 @@ export default class App extends Component {
           <NavBar />
         </header>
         <section>
-          <News pageSize={20} />
+          <News pageSize={20} country="in" category="sports" />
         </section>
       </>
     );

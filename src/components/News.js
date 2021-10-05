@@ -3,8 +3,23 @@ import NewsItems from "./NewsItems";
 import PreviousIcon from "@material-ui/icons/ArrowBack";
 import NextIcon from "@material-ui/icons/ArrowForward";
 import Spinner from "./Spinner";
+import PropTypes from "prop-types";
 
 export default class News extends Component {
+  // Prop types
+
+  static propTypes = {
+    country: PropTypes.string,
+    pageSize: PropTypes.number,
+    category: PropTypes.string,
+  };
+
+  static defaultProps = {
+    country: "in",
+    pageSize: 20,
+    category: "general",
+  };
+
   constructor() {
     super();
 
@@ -16,7 +31,7 @@ export default class News extends Component {
   }
 
   async componentDidMount() {
-    let url = `https://newsapi.org/v2/top-headlines?country=in&apiKey=07fa1c09aa6d45928d240eb9a7ea0104&page=1&pageSize=${this.props.pageSize}`;
+    let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apikey=07fa1c09aa6d45928d240eb9a7ea0104&page=1&pageSize=${this.props.pageSize}`;
 
     this.setState({ loading: true });
 
@@ -31,7 +46,11 @@ export default class News extends Component {
   }
 
   handlePrev = async () => {
-    let url = `https://newsapi.org/v2/top-headlines?country=in&apiKey=07fa1c09aa6d45928d240eb9a7ea0104&page=${
+    let url = `https://newsapi.org/v2/top-headlines?country=${
+      this.props.country
+    }&category=${
+      this.props.category
+    }&apikey=07fa1c09aa6d45928d240eb9a7ea0104&page=${
       this.state.page - 1
     }&pageSize=${this.props.pageSize}`;
 
@@ -57,7 +76,11 @@ export default class News extends Component {
     ) {
       console.log("Next");
 
-      let url = `https://newsapi.org/v2/top-headlines?country=in&apiKey=07fa1c09aa6d45928d240eb9a7ea0104&page=${
+      let url = `https://newsapi.org/v2/top-headlines?country=${
+        this.props.country
+      }&category=${
+        this.props.category
+      }&apikey=07fa1c09aa6d45928d240eb9a7ea0104&page=${
         this.state.page + 1
       }&pageSize=${this.props.pageSize}`;
 
@@ -109,6 +132,10 @@ export default class News extends Component {
               className="page-btn"
               type="button"
               onClick={this.handleNext}
+              disabled={
+                this.state.page + 1 >
+                Math.ceil(this.state.totalResults / this.props.pageSize)
+              }
             >
               Next <NextIcon />
             </button>
